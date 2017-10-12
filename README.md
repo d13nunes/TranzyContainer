@@ -1,2 +1,7 @@
 # TranzyContainer
-A UIViewController container that enables easy transition animations
+UIViewController container with easy transition animations
+
+## TODOS:
+
+- Create the Sample project
+- Create nuget project
