@@ -22,13 +22,9 @@ namespace TranzyContainer.Sample
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
 
-            MainViewController = new ContainerViewController();
-
-            Window = new UIWindow(UIScreen.MainScreen.Bounds);
-            Window.RootViewController = MainViewController;
-            Window.MakeKeyAndVisible();
-
-            InvokeOnMainThread(async () => await MainViewController.ReplaceViewControllerAsync(new TransitionsViewController(), Transition.None));
+            MainViewController = Window.RootViewController as ContainerViewController;
+            InvokeOnMainThread(async () => await MainViewController.ReplaceViewControllerAsync(new TransitionsViewController(), 
+                                                                                               Transition.None));
 
             return true;
         }
