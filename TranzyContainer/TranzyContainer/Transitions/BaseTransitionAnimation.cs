@@ -9,7 +9,7 @@ namespace TranzyContainer.Transitions
 
         public virtual nfloat SpringDampingRatio => 0.90f;
 
-        public virtual double Duration => 0.45f;
+        public virtual double Duration => 0.9666f;
 
         public virtual nfloat InitialSprintVelocity => 1.0f;
 

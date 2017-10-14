@@ -56,6 +56,7 @@
     <Compile Include="Transitions\FromTopTransition.cs" />
     <Compile Include="Transitions\ScaleTransition.cs" />
     <Compile Include="Transition.cs" />
+    <Compile Include="Transitions\NoneTransition.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

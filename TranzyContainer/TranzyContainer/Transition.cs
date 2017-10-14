@@ -10,5 +10,6 @@ namespace TranzyContainer
         public static readonly ITransitionAnimation FromLeft = new FromLeftTransition();
         public static readonly ITransitionAnimation FromRight = new FromRightTransition();
         public static readonly ITransitionAnimation Scale = new ScaleTransition();
+        public static readonly ITransitionAnimation None = new NoneTransition();
     }
 }

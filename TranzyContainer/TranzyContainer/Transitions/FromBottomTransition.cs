@@ -1,9 +1,16 @@
-﻿using UIKit;
+﻿using System;
+using UIKit;
 
 namespace TranzyContainer.Transitions
 {
     public class FromBottomTransition : BaseTransitionAnimation
     {
+
+        public override nfloat SpringDampingRatio => 0.60f;
+
+        public override double Duration => 0.9666f;
+
+        public override nfloat InitialSprintVelocity => 0.50f;
 
         public override void WillTransition(ContainerViewController container, UIViewController newViewController)
         {
