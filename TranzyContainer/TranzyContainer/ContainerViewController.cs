@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Foundation;
 using UIKit;
 
 namespace TranzyContainer
 {
+    [Register(nameof(ContainerViewController))]
     public class ContainerViewController : UIViewController
     {
 
