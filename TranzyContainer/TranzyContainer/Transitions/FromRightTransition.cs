@@ -15,14 +15,6 @@ namespace TranzyContainer.Transitions
         {
             var newVCframe = container.View.Bounds;
             newVCframe.X = 0;
-
-            //if (oldViewController != null)
-            //{
-            //    var oldVCFrame = oldViewController.View.Frame;
-            //    oldVCFrame.X = oldVCFrame.Width / 3;
-            //    oldViewController.View.Frame = oldVCFrame;
-            //}
-
             newViewController.View.Frame = newVCframe;
         }
 
