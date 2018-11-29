@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranzyContainer", "TranzyCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranzyContainer.Sample", "TranzyContainer.Sample\TranzyContainer.Sample.csproj", "{9703911D-7A7B-4138-A0D0-FADE00F1ADED}"
 EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "TranzyContainer.Nuget", "TranzyContainer.Nuget\TranzyContainer.Nuget.nuproj", "{39538745-0B53-4889-B53B-315ED7BE518D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,5 +41,17 @@ Global
 		{9703911D-7A7B-4138-A0D0-FADE00F1ADED}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{9703911D-7A7B-4138-A0D0-FADE00F1ADED}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{9703911D-7A7B-4138-A0D0-FADE00F1ADED}.Debug|iPhone.Build.0 = Debug|iPhone
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Release|iPhone.Build.0 = Release|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{39538745-0B53-4889-B53B-315ED7BE518D}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
